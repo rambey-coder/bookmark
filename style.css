@@ -8,9 +8,57 @@
 }
 
 .nav-section {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo > img {
+    width: 140px;
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lists > li {
+    list-style-type: none;
+}
+
+.lists > li > a {
+    text-decoration: none;
+    color:  hsl(229, 31%, 21%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lists > li:nth-child(4) > a {
+    background: hsl(0, 94%, 66%);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 5px hsla(231, 69%, 60%, 0.397));
+    border: 2px solid transparent;
+}
+
+.lists > li > a:hover {
+    color: hsl(0, 94%, 66%);
+    transition: 0.4s linear;
+}
+
+.lists > li:nth-child(4) > a:hover {
+    color: hsl(0, 94%, 66%);
+    background: transparent;
+    border: 2px solid hsl(0, 94%, 66%);
+    transition: 0.4s linear;
 }
