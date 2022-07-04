@@ -216,6 +216,10 @@
 
 .tabs-content {
     margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
 }
 
 .img-container-1 {
@@ -242,4 +246,43 @@
     bottom: 0;
     left: 0;
     z-index: -1;
+}
+
+.text-container-1 {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.text-container-1 > h1 {
+    color: hsl(229, 31%, 21%);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text-container-1 > P {
+    margin-top: 1.5rem;
+    font-size: 16px;
+    color: hsl(229, 8%, 60%);
+    line-height: 1.7;
+    /* letter-spacing: 1px; */
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+.text-container-1 > button {
+    background: hsl(231, 69%, 60%);
+    border: 2px solid transparent;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.text-container-1 > button:hover {
+    color: hsl(231, 69%, 60%);
+    background: transparent;
+    border: 2px solid hsl(231, 69%, 60%);
+    transition: .4s linear;
 }
