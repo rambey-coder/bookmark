@@ -410,6 +410,10 @@
     width: 90%;
 }
 
+.details > p.active {
+    color: hsl(229, 31%, 21%);
+}
+
 .details > p:hover {
     color: hsl(0, 94%, 66%);
     transition: 0.4s linear;
