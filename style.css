@@ -611,4 +611,54 @@ footer {
     width: 80%;
     margin: auto;
     padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lists-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lists-footer > li {
+    list-style-type: none;
+}
+
+.lists-footer > li > a {
+    text-decoration: none;
+    color:  #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lists-footer > li > a:hover {
+    color: hsl(0, 94%, 66%);
+    transition: 0.4s linear;
+}
+
+.sec-2 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sec-2 i {
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sec-2 i:hover {
+    color: hsl(0, 94%, 66%);
+    transition: 0.4s linear;
 }
