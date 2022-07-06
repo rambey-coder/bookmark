@@ -36,3 +36,27 @@ styles for arrow
     transform: rotate(180deg);
 }
 */
+
+
+
+function validateForm() {
+    const validate = document.querySelector('.form-submit')
+    validate.addEventListener('submit', (e) => {
+
+        const val = document.querySelector('.val').value
+        let regex = /[a-z0-9]+@[a-z0-9]/;
+
+        if(regex.test(val)){
+            alert('Form submitted successfully')
+        } else {
+            validate.classList.add('active')
+            setTimeout(() => {
+                validate.classList.remove('active')
+            }, 3000);
+        }
+
+        e.preventDefault()
+    })
+}
+
+validateForm()
