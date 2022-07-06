@@ -424,15 +424,30 @@
     font-weight: 600;
 }
 
-.details > i.actives {
+/* .details > i.active {
     color: hsl(0, 94%, 66%);
+    transform: rotate(180deg);
+} */
+
+.acc-1.active i {
+    color: hsl(0, 94%, 66%);
+    transform: rotate(180deg);
 }
 
 .summary {
     width: 95%;
     margin: auto;
     max-height: 0;
+    transition: max-height 1.2s ease;
     overflow: hidden;
+}
+
+/* .summary.active {
+    max-height: 300px;
+} */
+
+.acc-1.active .summary {
+    max-height: 300px;
 }
 
 .summary > p {

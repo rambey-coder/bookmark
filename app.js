@@ -15,3 +15,12 @@ tabs.forEach((tab, i) => {
         tabs[i].classList.add('active')
     })
 })
+
+
+const faq = document.querySelectorAll('.acc-1')
+
+faq.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        btn.classList.toggle('active')
+    })
+})
