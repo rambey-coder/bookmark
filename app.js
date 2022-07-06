@@ -24,3 +24,15 @@ faq.forEach((btn) => {
         btn.classList.toggle('active')
     })
 })
+
+/*
+styles for text(.summary)
+.acc-1.active .summary {
+    max-height: 300px;
+}
+styles for arrow
+.acc-1.active i {
+    color: hsl(0, 94%, 66%);
+    transform: rotate(180deg);
+}
+*/
