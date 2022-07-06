@@ -219,14 +219,13 @@
 }
 
 .tabs-content {
-    display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     gap: 3rem;
+    display: none;
 }
 
-.tabs-content-2, .tabs-content-3 {
-    display: none;
+.tabs-content.active {
+    display: flex;
 }
 
 .img-container-1 {
@@ -237,7 +236,7 @@
 .img-container-1 img {
     width: 60%;
     position: relative;
-    left: 155px;
+    left: 180px;
     bottom: 50px;
 }
 
