@@ -602,3 +602,13 @@
     border: 2px solid hsl(0, 94%, 66%);
     transition: .4s linear;
 }
+
+footer {
+    background: hsl(229, 31%, 21%);
+}
+
+.footer-section {
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
