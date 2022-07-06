@@ -363,3 +363,78 @@
 .space-2 {
     margin-top: 14rem;
 }
+
+.faq-section {
+    width: 60%;
+    margin: 8rem auto 0 auto;
+}
+
+.faq-section > h1 {
+    color: hsl(229, 31%, 21%);
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faq-section > p {
+    font-size: 16px;
+    color: hsl(229, 8%, 60%);
+    text-align: center;
+    width: 55%;
+    margin: auto auto 5rem auto;
+}
+
+.accordion {
+    width: 60%;
+    margin: auto;
+}
+
+.acc-1 {
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.details > p {
+    color: hsl(229, 8%, 60%);
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.details > p:hover {
+    color: hsl(0, 94%, 66%);
+    transition: 0.4s linear;
+}
+
+.details > i {
+    color: hsl(231, 69%, 60%);
+    font-weight: 600;
+}
+
+.details > i.actives {
+    color: hsl(0, 94%, 66%);
+}
+
+.summary {
+    width: 95%;
+    margin: auto;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.summary > p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 2rem 0 1rem 0;
+    color: hsl(229, 8%, 60%);
+    text-align: left;
+}
