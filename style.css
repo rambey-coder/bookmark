@@ -75,7 +75,7 @@
     transition: .5s cubic-bezier(.17,.67,.45,.78);
 }
 
-.active {
+.mobile-menu.active {
     top: 0;
 }
 
@@ -85,8 +85,8 @@
     justify-content: space-between;
     width: 80%;
     margin: auto;
-    margin-bottom: 2rem;
-    padding: 20px 0;
+    margin-bottom: 1rem;
+    padding: 40px 0;
 }
 
 .icons-mobile {
@@ -103,7 +103,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 1.7rem;
     width: 80%;
     margin: auto;
 
@@ -163,7 +163,7 @@
     display: none;
 }
 
-.icons>i {
+.icons > i {
     font-size: 20px;
 }
 

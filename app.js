@@ -60,3 +60,12 @@ function validateForm() {
 }
 
 validateForm()
+
+const hamburger = document.querySelectorAll('.bars');
+const menu = document.querySelector('.mobile-menu')
+
+hamburger.forEach(ham => {
+    ham.addEventListener('click', () => {
+        menu.classList.toggle('active')
+    }) 
+})
