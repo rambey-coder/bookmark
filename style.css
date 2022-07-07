@@ -681,3 +681,24 @@ footer {
         margin-top: 0;
     }
 }
+
+@media screen and (max-width: 940px) {
+    .hero-section {
+        flex-direction: column-reverse;
+        gap: 6rem;
+    }
+
+    .img-container {
+        width: 100%;
+    }
+
+    .text-container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .text-container > p {
+        margin: 1.5rem auto;
+    }
+}
