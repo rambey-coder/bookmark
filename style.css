@@ -932,4 +932,53 @@ footer {
         align-items: center;
         gap: 2rem;
     }
+
+    .img-container-1 img {
+        width: 75%;
+        left: 110px;
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .card, .card-1, .card-2 {
+        width: 60%;
+    }
+
+    .accordion {
+        width: 90%;
+    }
+
+    .semi-footer > h2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 648px) {
+    .accordion {
+        width: 100%;
+    }
+
+    .features-content>p,
+    .main-section>p,
+    .faq-section>p {
+        width: 90%;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .text-container, .text-container-1 {
+        width: 90%;
+    }
+
+    .text-container h1 {
+        font-size: 40px;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 80%;
+    }
 }
