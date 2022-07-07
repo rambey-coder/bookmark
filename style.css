@@ -303,6 +303,8 @@
     border: 2px solid transparent;
     padding: 12px 20px;
     border-radius: 5px;
+    width: 90%;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     color: #fff;
@@ -340,7 +342,8 @@
 }
 
 .card-container {
-    width: 80%;
+    width: 85%;
+    gap: 2rem;
     margin: 0 auto 0 auto;
     display: flex;
     align-items: center;
@@ -351,7 +354,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 33%;
     justify-content: center;
     background: #fff;
     padding: 15px;
@@ -528,7 +531,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -661,4 +664,20 @@ footer {
 .sec-2 i:hover {
     color: hsl(0, 94%, 66%);
     transition: 0.4s linear;
+}
+
+@media screen and (max-width: 990px) {
+    .card-container {
+        flex-direction: column;
+        margin-top: 4rem;
+        justify-content: center;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 40%;
+    }
+
+    .space-1, .space-2 {
+        margin-top: 0;
+    }
 }
