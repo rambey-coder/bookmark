@@ -303,7 +303,6 @@
     border: 2px solid transparent;
     padding: 12px 20px;
     border-radius: 5px;
-    width: 90%;
     font-size: 12px;
     font-weight: 500;
     cursor: pointer;
@@ -355,10 +354,15 @@
     flex-direction: column;
     align-items: center;
     width: 33%;
+    border-radius: 7px;
     justify-content: center;
     background: #fff;
     padding: 15px;
     filter: drop-shadow(1px 1px 5px hsla(231, 92%, 67%, 0.199));
+}
+
+.card > button, .card-1 > button, .card-2 > button {
+    width: 95%;
 }
 
 .card img:nth-child(1), .card-1 img:nth-child(1), .card-2 img:nth-child(1) {
@@ -410,7 +414,7 @@
     color: hsl(229, 8%, 60%);
     text-align: center;
     width: 55%;
-    margin: auto auto 5rem auto;
+    margin: auto auto 3rem auto;
 }
 
 .accordion {
@@ -692,13 +696,38 @@ footer {
         width: 100%;
     }
 
-    .text-container {
+    .text-container, .text-container-1 {
         width: 80%;
         margin: auto;
         text-align: center;
     }
 
-    .text-container > p {
+    .text-container > p, .text-container-1 > p {
         margin: 1.5rem auto;
+    }
+
+    .features-content > p, .main-section > p, .faq-section > p {
+        width: 70%;
+    }
+
+    .tabs-content {
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .img-container-1 {
+        width: 100%;
+    }
+
+    .semi-circle-1 {
+        width: 70%;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 50%;
+    }
+
+    .faq-section > h1 {
+        margin-bottom: 2rem;
     }
 }
