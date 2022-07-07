@@ -525,7 +525,7 @@
 
 .semi-footer h2 {
     color: #fff;
-    width: 50%;
+    width: 60%;
     margin: 0 auto 2rem auto;
     font-size: 30px;
     font-weight: 500;
@@ -597,6 +597,7 @@
     background: hsl(0, 94%, 66%);
     border: 2px solid transparent;
     padding: 12px 20px;
+    width: 130px;
     border-radius: 5px;
     font-weight: 500;
     cursor: pointer;
@@ -684,6 +685,10 @@ footer {
     .space-1, .space-2 {
         margin-top: 0;
     }
+
+    .semi-footer h2 {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 940px) {
@@ -729,5 +734,13 @@ footer {
 
     .faq-section > h1 {
         margin-bottom: 2rem;
+    }
+
+    .accordion {
+        width: 70%;
+    }
+
+    body > section:nth-child(5) > div > div > div:nth-child(1) > hr:nth-child(1) {
+        opacity: 0;
     }
 }
