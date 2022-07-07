@@ -67,7 +67,7 @@
 
 .mobile-menu {
     position: absolute;
-    top: -100%;
+    top: -1000%;
     width: 100%;
     background: hsl(229deg 89% 12% / 85%);
     z-index: 999;
