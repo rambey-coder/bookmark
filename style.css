@@ -981,4 +981,69 @@ footer {
     .card, .card-1, .card-2 {
         width: 80%;
     }
+
+    .faq-section, .semi-footer {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 506px) {
+    .img-container-1 img {
+        width: 80%;
+        left: 67px;
+        bottom: 65px;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 90%;
+    }
+
+    .faq-section,  .semi-footer{
+        width: 80%;
+    }
+
+    .features-content > p,
+    .main-section > p,
+    .faq-section > p,
+    .text-container > p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 458px) {
+    .semi-circle, .semi-circle-1 {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .text-container h1, .main-section h1 {
+        font-size: 27px;
+    }
+
+    .card, .card-1, .card-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .semi-circle, .semi-circle-1 {
+        height: 210px;
+    }
+
+    .img-container-1 img {
+        left: 40px;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .semi-footer {
+        width: 100%;
+    }
+
+    .faq-section {
+        width: 90%;
+    }
 }
